@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Base ClashofClans — kumpulan layout Clash of Clans TH3 sampai TH18.">
+<title>Base ClashofClans — TH3–TH18</title>
+<style>
+:root{--bg:#0b0e13;--panel:#151922;--panel2:#1d2330;--line:#2a3140;--text:#f5f7fa;--muted:#9ba5b5;--gold:#f2b632;--green:#48d597}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#1d2534 0,#0b0e13 38%);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{position:sticky;top:0;z-index:20;background:rgba(11,14,19,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{max-width:1200px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:850}.brand img{width:42px;height:42px;object-fit:cover;border-radius:9px}.brand span{color:var(--gold)}
+.navlinks{display:flex;gap:18px}.navlinks a{color:var(--muted);text-decoration:none;font-size:14px}.navlinks a:hover{color:#fff}
+.hero{max-width:1200px;margin:auto;padding:58px 20px 32px}.hero .eyebrow{color:var(--gold);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.12em}.hero h1{font-size:clamp(34px,6vw,58px);line-height:1.02;margin:10px 0 14px}.hero p{max-width:700px;color:var(--muted);line-height:1.7;margin:0}
+.thbar{max-width:1200px;margin:auto;padding:10px 20px 24px;display:flex;gap:9px;overflow-x:auto;scrollbar-width:thin}.thbtn{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:#dbe0e8;border-radius:10px;padding:10px 15px;font-weight:750;cursor:pointer}.thbtn.active{background:var(--gold);color:#15120a;border-color:var(--gold)}
+.controls{max-width:1200px;margin:auto;padding:0 20px 26px;display:flex;gap:10px;flex-wrap:wrap}.controls input,.controls select{border:1px solid var(--line);background:var(--panel);color:#fff;border-radius:10px;padding:12px 13px;outline:none}.controls input{flex:1;min-width:220px}.controls select{min-width:150px}
+.stats{max-width:1200px;margin:auto;padding:0 20px 18px;color:var(--muted);font-size:13px}
+.grid{max-width:1200px;margin:auto;padding:0 20px 70px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(180deg,#171c26,#12161d);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.18s}.card:hover{transform:translateY(-3px);border-color:#475165}
+.preview{aspect-ratio:1.05/1;background:#202631;position:relative;display:flex;align-items:center;justify-content:center}.preview:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(242,182,50,.08),transparent 45%,rgba(72,213,151,.05))}
+.base-art{width:72%;height:72%;border:3px solid #5c687a;border-radius:12px;background:repeating-linear-gradient(45deg,#313947 0 12px,#28303b 12px 24px);display:flex;align-items:center;justify-content:center;text-align:center;color:#b9c2d0;font-weight:700;font-size:13px;position:relative}.base-art:after{content:"BASE";font-size:34px;letter-spacing:.12em;color:#667386;position:absolute;opacity:.5}
+.badge{position:absolute;z-index:2;top:11px;left:11px;background:rgba(0,0,0,.68);padding:6px 9px;border-radius:8px;font-size:12px;font-weight:800}.type{position:absolute;z-index:2;top:11px;right:11px;background:rgba(0,0,0,.68);padding:6px 9px;border-radius:8px;font-size:12px;color:#dce2ea}
+.info{padding:15px}.info h3{margin:0 0 7px;font-size:17px}.meta{font-size:13px;color:var(--muted);margin-bottom:13px}.actions{display:flex;gap:8px}.btn{flex:1;text-align:center;text-decoration:none;border-radius:9px;padding:10px;border:1px solid var(--line);background:var(--panel2);color:#fff;font-size:13px;font-weight:700}.btn.primary{background:var(--green);border-color:var(--green);color:#0b1a12}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:55px}
+.how{max-width:1200px;margin:auto;padding:0 20px 65px}.how h2{margin-bottom:18px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.step{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px}.step b{display:block;margin-bottom:7px}.step p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+footer{border-top:1px solid var(--line);padding:28px 20px;text-align:center;color:var(--muted);font-size:12px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.navlinks{display:none}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding-top:42px}.brand img{width:36px;height:36px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="#"><img src="logo.png" alt="Base ClashofClans logo" onerror="this.style.display='none'"><span>base</span> clashofclans</a>
+    <div class="navlinks"><a href="#">Home</a><a href="#layouts">Layouts</a><a href="#cara">Cara Pakai</a></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">Clash of Clans Base Library</div>
+  <h1>Base ClashofClans</h1>
+  <p>Temukan layout Clash of Clans dari Town Hall 3 sampai Town Hall 18. Pilih Town Hall, kategori base, lalu gunakan tombol untuk membuka link layout di Clash of Clans.</p>
+</section>
+
+<div class="thbar" id="thbar"></div>
+
+<div class="controls" id="layouts">
+  <input id="search" type="search" placeholder="Cari base, misalnya: anti 3 star...">
+  <select id="type">
+    <option value="all">Semua kategori</option>
+    <option value="war">War Base</option>
+    <option value="farming">Farming</option>
+    <option value="trophy">Trophy</option>
+    <option value="hybrid">Hybrid</option>
+  </select>
+  <select id="sort">
+    <option value="new">Terbaru</option>
+    <option value="views">Paling banyak dilihat</option>
+  </select>
+</div>
+
+<div class="stats" id="stats"></div>
+<main class="grid" id="grid"></main>
+
+<section class="how" id="cara">
+  <h2>Cara menggunakan base</h2>
+  <div class="steps">
+    <div class="step"><b>1. Pilih Town Hall</b><p>Pilih TH3 sampai TH18 sesuai akun Clash of Clans kamu.</p></div>
+    <div class="step"><b>2. Pilih layout</b><p>Buka detail base dan lihat preview sebelum menggunakannya.</p></div>
+    <div class="step"><b>3. Use This Base</b><p>Tombol akan membuka link layout Clash of Clans. Jika aplikasinya terpasang, Android dapat menawarkan untuk membukanya di Clash of Clans.</p></div>
+  </div>
+</section>
+
+<footer>Base ClashofClans — Fan-made website. Tidak berafiliasi dengan Supercell.</footer>
+
+<script>
+const ths = Array.from({length:16},(_,i)=>i+3);
+const typeNames={war:"War Base",farming:"Farming",trophy:"Trophy",hybrid:"Hybrid"};
+const bases=[];
+let id=1;
+// Contoh data awal untuk setiap TH. Ganti/add data ini dengan base asli dan deep link layout.
+ths.forEach(th=>{
+  ["war","farming","trophy","hybrid"].forEach(type=>{
+    bases.push({id:id++,th,type,title:`TH${th} ${typeNames[type]}`,views:Math.floor(100+Math.random()*2400),link:"https://link.clashofclans.com/"});
+  });
+});
+let currentTH="all";
+
+const thbar=document.getElementById("thbar");
+thbar.innerHTML='<button class="thbtn active" data-th="all">Semua</button>'+ths.map(th=>`<button class="thbtn" data-th="${th}">TH${th}</button>`).join("");
+
+function render(){
+  const q=document.getElementById("search").value.toLowerCase().trim();
+  const type=document.getElementById("type").value;
+  const sort=document.getElementById("sort").value;
+  let list=bases.filter(b=>(currentTH==="all"||String(b.th)===currentTH)&&(type==="all"||b.type===type)&&b.title.toLowerCase().includes(q));
+  if(sort==="views") list.sort((a,b)=>b.views-a.views); else list.sort((a,b)=>b.id-a.id);
+  document.getElementById("stats").textContent=`Menampilkan ${list.length} layout contoh • TH${currentTH==="all"?"3–18":currentTH}`;
+  document.getElementById("grid").innerHTML=list.length?list.map(b=>`
+    <article class="card">
+      <div class="preview">
+        <span class="badge">TH${b.th}</span><span class="type">${typeNames[b.type]}</span>
+        <div class="base-art">PREVIEW<br>TH${b.th}</div>
+      </div>
+      <div class="info">
+        <h3>${b.title}</h3>
+        <div class="meta">👁 ${b.views.toLocaleString("id-ID")} views</div>
+        <div class="actions">
+          <a class="btn" href="#detail-${b.id}">Detail</a>
+          <a class="btn primary" href="${b.link}" target="_blank" rel="noopener">⚔️ Use This Base</a>
+        </div>
+      </div>
+    </article>`).join(""):'<div class="empty">Tidak ada layout yang cocok.</div>';
+}
+document.querySelectorAll(".thbtn").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".thbtn").forEach(x=>x.classList.remove("active"));
+  btn.classList.add("active"); currentTH=btn.dataset.th; render();
+}));
+document.getElementById("search").addEventListener("input",render);
+document.getElementById("type").addEventListener("change",render);
+document.getElementById("sort").addEventListener("change",render);
+render();
+</script>
+</body>
+</html>
